@@ -1,0 +1,8 @@
+html, body {
+  height: auto;
+  margin: auto;
+}
+canvas {
+  display: block;
+  margin: auto;
+}
