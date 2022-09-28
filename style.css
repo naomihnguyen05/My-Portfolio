@@ -6,6 +6,7 @@ body {
   font-family: 'Montserrat', sans-serif;
   background-color: white;
   margin: 0px;
+  width: 100%;
   color: black;
 }
 
@@ -92,21 +93,6 @@ h3 {
   padding-left: 130px;
 }
 
-/* Another method for columns/rows for images */
-/*
-.brellacolumn{
-  float: left;
-  width: 12.5%;
-  padding-left: 130px;
-  padding-right: 130px;
-}
-
-.row::after{
-  content: "";
-  clear: both;
-  display: table;
-} */
-
 .integratedcal{
   position: relative;
   margin-top: -22%;
@@ -122,12 +108,13 @@ h3 {
 
 .brellagallery{
   display: grid;
-  grid-template-columns: repeat(8, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(1, 5vw);
-  grid-gap: 230px;
+  grid-gap: 10px;
   padding-top: 10px;
   padding-left: 130px;
   padding-right: 130px;
+  padding-bottom: 10px;
 }
 
 .gallery-item1{
@@ -138,15 +125,36 @@ h3 {
 }
 
 .gallery-item2{
-  grid-column-start: 3;
-  grid-column-end: 5;
+  grid-column-start: 2;
+  grid-column-end: 3;
   grid-row-start: 1;
   grid-row-end: 3;
 }
 
 .gallery-item3{
-  grid-column-start: 5;
-  grid-column-end: 7;
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.sgallery-item1{
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.sgallery-item2{
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.sgallery-item3{
+  grid-column-start: 3;
+  grid-column-end: 5;
   grid-row-start: 1;
   grid-row-end: 3;
 }
@@ -158,14 +166,14 @@ h3 {
 
 .seowonposter{
   text-align: right;
-  padding-right: 130px;
+  padding-right: 155px;
 }
 
 .seowongallery{
   display: grid;
-  grid-template-columns: repeat(8, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(1, 5vw);
-  grid-gap: 230px;
+  grid-gap: 50px;
   padding-top: 35px;
   padding-left: 130px;
   padding-right: 130px;
