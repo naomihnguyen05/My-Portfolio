@@ -64,8 +64,8 @@ a:link {
   text-decoration: none;
 }
 
-
 footer{
+    font-size: 1vw;
     display: table;
     text-align: center;
     margin-left: auto;

@@ -9,17 +9,6 @@ body {
   color: white;
 }
 
-/* h1 {
-padding: 30px;
-text-align: left;
-}
-
-nav {
-  display:
-  text-align: right;
-  padding: 30px;
-} */
-
 header{
   padding: 30px;
 }
@@ -50,10 +39,6 @@ main {
   margin-left: 25px;
   margin-right: 25px;
   max-width: 800px;
-}
-
-p {
-
 }
 
 a {
@@ -110,6 +95,7 @@ a:link {
 }
 
 footer{
+    font-size: 1vw;
     display: table;
     text-align: center;
     margin-left: auto;
