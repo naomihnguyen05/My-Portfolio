@@ -37,8 +37,7 @@ li {
 
 h2 {
   font-size: 16vw;
-  text-align: left;
-  padding-left: 250px;
+  text-align: center;
 }
 
 main {
@@ -53,7 +52,7 @@ margin-top: -12%;
 font-size: 1vw;
 font-weight: bold;
 text-align: left;
-padding-left: 270px;
+padding-left: 290px;
 padding-right: 250px;
 }
 

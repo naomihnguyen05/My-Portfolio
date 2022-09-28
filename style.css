@@ -48,10 +48,16 @@ li {
 }
 
 h2 {
+  left: 0;
+  right: 0;
+  height: 50%;
   font-size: 5vw;
   text-align: left;
   padding-left: 250px;
   padding-right: 250px;
+  padding-top: 240px;
+  padding-bottom: 300px;
+  bottom: 0;
 }
 
 main {
