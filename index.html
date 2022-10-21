@@ -3,9 +3,12 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <head>
       <title>NAOMI H. NGUYEN</title>
-      <style>
-      </style>
+      <script src="https://unpkg.com/splitting/dist/splitting.min.js"></script>
+      <link rel="stylesheet" href="https://unpkg.com/splitting/dist/splitting.css" />
+      <link rel="stylesheet" href="https://unpkg.com/splitting/dist/splitting-cells.css" />
+      <script src="assets/scrollfade-0.1.js"></script>
       <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="about.css">
 </head>
 <body>
 <div class="center">
@@ -18,11 +21,13 @@
   <li><a id="nav" href="index.html">Work<a/></li>
 </ul>
 </header>
-<h2>
-Visual Designer <br>
-— based in San Jose, CA.
-</h2>
+
+<h1 class="blur-it" data-splitting>Visual Designer <br>
+— based in San Jose, CA.</h1>
+<script> Splitting(); </script>
+
 <div class="about">
+<div class="fill" data-splitting>
   <p>
     Hello, I am Naomi. <br>
     <br>
@@ -35,11 +40,17 @@ Visual Designer <br>
     information into stunning visuals!
   </p>
 </div>
+</div>
 <br><br>
+<div class="scrollFade">
+
+<script> Splitting(); </script>
+
 <h3>
   Selected <br>
   Work <br>
 </h3>
+
 <!-- Integrated Calendar Image -->
 <div class="integratedcal">
   <img src="assets/integratedcal.jpg" width="500" height="680" style="max-width:100%;height:auto;" alt="Integrated Calendar">
@@ -54,30 +65,32 @@ Visual Designer <br>
   intention and a harmonious pattern.
 </p>
 </div>
+</div>
 <br><br>
 <br><br>
 <br><br>
 
 
 <!-- First Row of Brella Gallery -->
+<div class="scrollFade">
 <div class="brellagallery">
   <div class="gallery-item1">
-    <img src="assets/brellacover.jpg" width="420" height="280" style="max-width:200%;height:auto;" alt="Brella Cover Page">
+    <img src="assets/brellacover.jpg" width="420" height="280" style="max-width:100%;height:auto;" alt="Brella Cover Page">
   </div>
   <div class="gallery-item2">
-    <img src="assets/brellaartifacts.jpg" width="420" height="280" style="max-width:200%;height:auto;" alt="Brella Artifacts Page">
+    <img src="assets/brellaartifacts.jpg" width="420" height="280" style="max-width:100%;height:auto;" alt="Brella Artifacts Page">
   </div>
 </div>
 <!-- Second Row of Brella Gallery -->
 <div class="brellagallery">
   <div class="gallery-item1">
-    <img src="assets/brellacontent.jpg" width="420" height="280" style="max-width:200%;height:auto;" alt="Brella Content Page">
+    <img src="assets/brellacontent.jpg" width="420" height="280" style="max-width:100%;height:auto;" alt="Brella Content Page">
   </div>
   <div class="gallery-item2">
-    <img src="assets/brellaripple.jpg" width="420" height="280" style="max-width:200%;height:auto;" alt="Brella Ripple Story">
+    <img src="assets/brellaripple.jpg" width="420" height="280" style="max-width:100%;height:auto;" alt="Brella Ripple Story">
   </div>
   <div class="gallery-item3">
-    <img src="assets/brellainfo.jpg" width="420" height="280" style="max-width:200%;height:auto;" alt="Brella Info Page">
+    <img src="assets/brellainfo.jpg" width="420" height="280" style="max-width:100%;height:auto;" alt="Brella Info Page">
   </div>
 </div>
 <!-- Single Brella Mockup Image -->
@@ -94,11 +107,13 @@ Visual Designer <br>
   field of water.
 </p>
 </div>
+</div>
 
 <!-- Single Seowon Poster Image -->
 <br><br>
 <br><br>
 <br><br>
+<div class="scrollFade">
 <div class="seowonposter">
   <img src="assets/seowonposter.jpg" width="420" height="560" style="max-width:100%;height:auto;" alt="Seowon Content Map">
 </div>
@@ -128,13 +143,16 @@ Visual Designer <br>
   history and culture. <br>
 </p>
 </div>
+</div>
 
 <br><br>
 <br><br>
 <br><br>
+
 <footer>
   <p>© 2023 by Naomi H. Nguyen.</p>
 </footer>
+
 </div>
 </body>
 </html>

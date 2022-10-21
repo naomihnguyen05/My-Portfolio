@@ -1,0 +1,44 @@
+.fill .char {
+  visibility: hidden;
+}
+
+.fill .char::before, .fill .char::after {
+  visibility: visible;
+  --duration: 8s;
+  --delay: 0ms;
+  animation: slide-in var(--duration) cubic-bezier(0.9, 0, 0, 1) both infinite;
+  animation-delay: calc(var(--delay) + (10ms * var(--char-index)));
+}
+
+.fill .char::before {
+  color: white;
+}
+
+.fill .char::after {
+  animation-name: slide-in-2;
+  color: gray;
+}
+
+/* @keyframes slide-in {
+  0% {
+    clip-path: polygon(0 100%, 100% 100%, 100% 100%, 0% 100%);
+  }
+  30%, 70% {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+  }
+  95%, 100% {
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0% 0);
+  }
+} */
+
+@keyframes slide-in-2 {
+  0%, 10% {
+    clip-path: polygon(0 100%, 100% 100%, 100% 100%, 0% 100%);
+  }
+  35%, 65% {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+  }
+  85%, 100% {
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0% 0);
+  }
+}
