@@ -1,3 +1,6 @@
+/* Liquid Fill Effect for About Screen */
+/* created using splitting.js */
+
 .fill .char {
   visibility: hidden;
 }

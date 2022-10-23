@@ -63,10 +63,13 @@ a:link {
   text-decoration: none;
 }
 
+/* Blurring Effect for Landing Screen */
+/* created using splitting.js */
+
 .splitting {
   cursor: pointer;
 }
-/* ---------------------------------- */
+
 .blur-it .char {
   color: black;
   transition: opacity 0.2s linear;
@@ -210,6 +213,9 @@ h3 {
   padding-left: 130px;
   padding-right: 130px;
 }
+
+/* Scrolling Fade Effect for Galleries */
+/* created using scrollfade.js */
 
 .scrollFade {
   opacity: 1;
