@@ -1,3 +1,19 @@
+.about{
+  left: 0;
+  right: 0;
+  height: 50%;
+  background-color: black;
+  text-align: left;
+  color: white;
+  font-size: 3.5vw;
+  font-weight: bold;
+  padding-left: 130px;
+  padding-right:130px;
+  padding-top: 120px;
+  padding-bottom: 130px;
+  bottom: 0;
+}
+
 /* Liquid Fill Effect for About Screen */
 /* created using splitting.js */
 

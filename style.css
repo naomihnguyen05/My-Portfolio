@@ -106,22 +106,6 @@ a:link {
   }
 }
 
-.about{
-  left: 0;
-  right: 0;
-  height: 50%;
-  background-color: black;
-  text-align: left;
-  color: white;
-  font-size: 3.5vw;
-  font-weight: bold;
-  padding-left: 130px;
-  padding-right:130px;
-  padding-top: 120px;
-  padding-bottom: 120px;
-  bottom: 0;
-}
-
 h3 {
   font-size: 7vw;
   text-align: left;
@@ -230,7 +214,7 @@ h3 {
   pointer-events: all;
 }
 .scrollFade--animate {
-  transition: opacity 0.4s ease-in-out;
+  transition: opacity 0.2s ease-in-out;
 }
 
 footer{
