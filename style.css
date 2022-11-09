@@ -40,7 +40,7 @@ h1 {
   left: 0;
   right: 0;
   height: 50%;
-  font-size: 5vw;
+  font-size: 81px;
   text-align: left;
   padding-left: 250px;
   padding-right: 307px;
@@ -238,17 +238,13 @@ footer{
     margin-right: auto;
 }
 
-/* @media (max-width" 769px) {
+@media (max-width: 769px) {
   h1 {
-    left: 0;
-    right: 0;
-    height: 50%;
-    font-size: 10px;
+    font-size: 20px;
     text-align: left;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 10px;
+    padding-left: 100px;
+    padding-right: 125px;
+    padding-top: 30px;
     padding-bottom: 100px;
-    bottom: 0;
   }
-} */
+}
