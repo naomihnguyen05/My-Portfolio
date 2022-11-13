@@ -43,7 +43,7 @@ h1 {
   font-size: 81px;
   text-align: left;
   padding-left: 250px;
-  padding-right: 307px;
+  padding-right: 300px;
   padding-top: 240px;
   padding-bottom: 400px;
   bottom: 0;
@@ -249,7 +249,7 @@ footer{
   }
 } */
 
-@media (max-width: 769px) {
+@media (max-width:  769px) {
   h1 {
     font-size: 40px;
     text-align: left;
@@ -258,4 +258,25 @@ footer{
     padding-top: 80px;
     padding-bottom: 150px;
   }
+
+  /* h3 {
+    font-size: 40px;
+  } */
+
+  .integratedcal{
+    margin-top: -1%;
+    text-align: center;
+    padding-left: 100px;
+  }
+
+  .brellamockup{
+    text-align: center;
+    padding-left: 10px;
+  }
+
+  .seowonposter{
+    text-align: center;
+    padding-left: 180px;
+  }
+
 }
