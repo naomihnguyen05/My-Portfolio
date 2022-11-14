@@ -35,25 +35,50 @@ li {
   color: gray;
 }
 
+h1 {
+  font-size: 8vw;
+  text-align: left;
+  padding-left: 130px;
+}
+
+.naomi{
+  margin-top: -5%;
+  flex: 50%
+  justify-content: flex-start;
+  text-align: left;
+  padding-left: 180px;
+}
+
+.text{
+  text-align: left;
+  font-size: 1vw;
+  padding-left: 215px;
+}
+
 h2 {
-  font-size: 16vw;
-  text-align: center;
+  font-size: 6vw;
+  text-align: left;
+  padding-left: 650px;
+}
+
+.sjearthquakes{
+  /* margin-top: -5%; */
+  flex: 50%
+  justify-content: flex-start;
+  text-align: left;
+  padding-left: 980px;
+}
+
+.text2{
+  text-align: left;
+  font-size: 0.8vw;
+  padding-left: 980px;
 }
 
 main {
   margin-left: 25px;
   margin-right: 25px;
   max-width: 800px;
-}
-
-.p1 {
-position: relative;
-margin-top: -12%;
-font-size: 1vw;
-font-weight: bold;
-text-align: left;
-padding-left: 290px;
-padding-right: 250px;
 }
 
 a {
@@ -70,4 +95,41 @@ footer{
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+}
+
+@media (max-width: 769px) {
+  h1 {
+    font-size: 8vw;
+    text-align: center;
+    padding: 0%;
+  }
+
+  .naomi {
+    flex: 100%;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    padding: 0%;
+  }
+
+
+  .text, .text2{
+    text-align: center;
+    font-size: 1vw;
+    padding: 0%;
+  }
+
+  h2 {
+    font-size: 8vw;
+    text-align: center;
+    padding: 0%;
+  }
+
+  .sjearthquakes{
+    flex: 100%;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    padding: 0%;
+  }
 }

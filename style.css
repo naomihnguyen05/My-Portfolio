@@ -255,8 +255,8 @@ footer{
     text-align: left;
     padding-left: 107px;
     padding-right: 117px;
-    padding-top: 80px;
-    padding-bottom: 150px;
+    padding-top: 100px;
+    padding-bottom: 170px;
   }
 
   /* h3 {
@@ -266,17 +266,17 @@ footer{
   .integratedcal{
     margin-top: -1%;
     text-align: center;
-    padding-left: 100px;
+    padding: 0%;
   }
 
   .brellamockup{
     text-align: center;
-    padding-left: 10px;
+    padding: 0%;
   }
 
   .seowonposter{
     text-align: center;
-    padding-left: 180px;
+    padding: 0%;
   }
 
 }
