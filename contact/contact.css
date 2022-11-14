@@ -89,12 +89,14 @@ a:link {
   text-decoration: none;
 }
 
-footer{
+.foot{
     font-size: 1vw;
-    display: table;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+    display: table;
+    width: 100%;
+
 }
 
 @media (max-width: 769px) {
