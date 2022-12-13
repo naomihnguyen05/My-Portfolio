@@ -169,8 +169,8 @@ h3 {
   grid-row-start: 1;
   grid-row-end: 3;
 }
-
-/* .sgallery-item1{
+/* 
+ .sgallery-item1{
   grid-column-start: 1;
   grid-column-end: 3;
   grid-row-start: 1;
@@ -182,14 +182,14 @@ h3 {
   grid-column-end: 4;
   grid-row-start: 1;
   grid-row-end: 3;
-}
+} */
 
 .sgallery-item3{
   grid-column-start: 3;
-  grid-column-end: 5;
+  grid-column-end: 4;
   grid-row-start: 1;
   grid-row-end: 3;
-} */
+} 
 
 .brellamockup{
   text-align: left;
@@ -219,7 +219,7 @@ h3 {
   pointer-events: all;
 }
 .scrollFade--hidden {
-  opacity: 0;
+  opacity: 0.3;
   pointer-events: none;
 }
 .scrollFade--visible {
@@ -227,7 +227,7 @@ h3 {
   pointer-events: all;
 }
 .scrollFade--animate {
-  transition: opacity 0.2s ease-in-out;
+  transition: opacity 0.4s ease-in-out;
 }
 
 footer{
