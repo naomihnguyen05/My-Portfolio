@@ -70,6 +70,10 @@ a:link {
   cursor: pointer;
 }
 
+.blur-it{
+  /* font-size: 69px; */
+}
+
 .blur-it .char {
   color: black;
   transition: opacity 0.2s linear;
@@ -106,10 +110,10 @@ a:link {
   }
 }
 
-h3 {
+.selected-work {
   font-size: 7vw;
   text-align: left;
-  padding-left: 130px;
+  padding-left: 0.60em;
 }
 
 .integratedcal{
@@ -118,7 +122,7 @@ h3 {
   flex: 50%
   justify-content: flex-start;
   text-align: right;
-  padding-right: 130px;
+  padding-right: 8.125em;
 }
 
 .text{
@@ -128,30 +132,30 @@ h3 {
 }
 
 .brellagallery{
-  display: flex;
+  display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(1, 5vw);
-  grid-gap: 10px;
-  padding-top: 10px;
-  padding-left: 130px;
-  padding-right: 130px;
-  padding-bottom: 10px;
+  grid-gap: 0.625em;
+  padding-top: 0.625em;
+  padding-left: 8.125em;
+  padding-right: 11em;
+  padding-bottom: 0.625em;
 }
 
 .sgallery{
-  display: flex;
+  display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(1, 5vw);
-  grid-gap: 10px;
-  padding-top: 10px;
-  padding-left: 130px;
-  padding-right: 130px;
-  padding-bottom: 10px;
+  grid-gap: 0.625em;
+  padding-top: 0.625em;
+  padding-left: 8.125em;
+  padding-right: 11em;
+  padding-bottom: 0.625em;
 }
 
 .gallery-item1{
   grid-column-start: 1;
-  grid-column-end: 3;
+  grid-column-end: 2;
   grid-row-start: 1;
   grid-row-end: 3;
 }
@@ -198,7 +202,7 @@ h3 {
 
 .seowonposter{
   text-align: right;
-  padding-right: 191px;
+  padding-right: 11em;
 }
 
 /* .seowongallery{
@@ -258,6 +262,12 @@ footer{
     padding-bottom: 100px;
   }
 } */
+
+@media(max-width: 413px){
+  .blur-it{
+    font-size: 24px;
+  }
+}
 
 @media (max-width:  769px) {
   h1 {
